@@ -1,0 +1,9 @@
+{
+  "accountid": "266333",
+  "querykey": "NRIQ-pD-yUFl9Z3ACIJ89V-zGkhMxFJE5O111",
+  "basequery": "SELECT Count(*) from PageView",
+  "querystart" : "2021-05-5",
+  "queryend" : "2021-05-7",
+  "slicesizeminutes" : "800",
+  "querysuffix" : "TIMESERIES 1 hour"
+}
