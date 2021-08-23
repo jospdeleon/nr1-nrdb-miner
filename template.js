@@ -65,10 +65,12 @@ function getData(encodedstring) {
                     fs.appendFileSync('exportresults.log', btm.toISOString() + ", "+ sumvalue +  '\n');  //  write the output log with email address found
                 }
 
+              
+
                 // ***************************************** END DATA PARSER ***********************************************
                 // ****************************************************************************************************
             } catch (ex1) {
-                console.log("exception during call to insights: " + ex.message);
+                console.log("exception during call to insights: " + ex1.message);
             }
 
             // if our current time point in search is still before out end time,  make recursive call
